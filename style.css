@@ -1,33 +1,28 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
-  background-color: #007f5f;
+  margin-top: 2%;
+  background-color: snow;
 }
-
-.navbar {
-  background-color: #006a50;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.568);
-}
-
-.navbar-brand {
-  color: snow;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.362);
+header {
+  color: black;
+  text-shadow: 1px 0 2px rgba(0, 0, 0, 0.321);
 }
 
 #total {
-  margin-top: 3em;
+  margin-top: 2em;
   width: 400px;
   border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.568);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.279);
 }
 
 #appContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #aacc00d6;
+  background-color: white;
   padding: 10%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -37,9 +32,9 @@ body {
   font-size: 1.2em;
   padding: 10%;
   padding-top: 0;
-  background-color: #aacc00d6;
-  color: snow;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.321);
+  background-color: white;
+  color: black;
+  text-shadow: 1px 0 3px rgba(0, 0, 0, 0.321);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
